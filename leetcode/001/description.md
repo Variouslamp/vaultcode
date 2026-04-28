@@ -2,8 +2,7 @@
 
 Medium
 Topics
-premium lock iconCompanies
-Hint
+
 
 Given two positive integers left and right, find the two integers num1 and num2 such that:
 
