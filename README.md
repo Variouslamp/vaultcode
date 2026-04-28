@@ -1,5 +1,3 @@
-# vaultcode-
-A personal vault of coding challenges, solutions and logic — built mainly in Python and Rust.
 # 🔐 vaultcode
 
 > A personal vault of coding challenges, solutions, and logic — built in Python and Rust.
@@ -55,6 +53,14 @@ What I found interesting or difficult about this one.
 
 ---
 
+## 🌎 Documentation Language
+
+The public-facing structure of this repository is kept in English: challenge descriptions, folder organization, and general documentation should be easy to scan from GitHub.
+
+Personal solution notes may be written in Spanish when that makes the reasoning clearer. Those notes are part of the learning process, so the priority is to capture ideas, failed attempts, trade-offs, and implementation details naturally.
+
+---
+
 ## 📌 Commit Convention
 
 | Prefix | Meaning |
@@ -63,6 +69,8 @@ What I found interesting or difficult about this one.
 | `wip:` | Work in progress — solution not finished yet |
 | `done:` | Finished a previously started challenge |
 | `update:` | Improved or refactored an existing solution |
+| `docs:` | Docs file added or modified |
+
 
 **Example:**
 ​```
