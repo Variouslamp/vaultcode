@@ -23,4 +23,8 @@ fn main() {
             vec![]
         }
     }
+
+    // Prueba la cual tiene que dar [3,4] para ser correcta
+    let prueba = Solution::two_sum(vec![1, 3, 54, 6, 2, 1, 3, 6, 7], 8);
+    print!("{:?}", prueba); // impresion de la prueba
 }
