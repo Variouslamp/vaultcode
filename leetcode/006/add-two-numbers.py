@@ -42,8 +42,5 @@ l1 = ListNode(2, ListNode(4, ListNode(3)))
 l2 = ListNode(5, ListNode(6, ListNode(4)))
 hola = Solution()
 lista = hola.addTwoNumbers(l1, l2)
-#print(lista.val, lista.next)
-print("----")
-
 for i in lista:
     print(i.val, i.next)
