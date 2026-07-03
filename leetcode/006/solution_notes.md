@@ -18,3 +18,9 @@ Durante la crecion de este problema me vi bastante acorralado la verdad ya que y
 La creacion fue interesante me obligo a usar varios metodos para recorrer la lista tranformas los datos y reconstruirlos a su forma inicial.
 
 He leido y en las propias soluciones de leetcode se muestran maneras mas eficientes haciendo uso de una tecnica llamada "carry" que es una suma de los nodos en si e ir creandolos mientras se hacen las operaciones, la solucion en RUST sera hecha de esa manera mas eficiente, puede que tambien la haga en python.
+
+**Fecha: 2026-07-02**
+
+Haciendo una investigacion ya he analizado que de los puntos fuertes de la solucion optimas es hacer las suma de los nodos de manera continua sin hacer ningun tipo de conversion de tipo como a String o sinsiquiera teniendo que juntar los valores de los nodos haciendo uso de un "carry" que funciona como guardar los numeros grandes de una suma unicamete colocando la unidad para dejar decena sumada para el siguiente numero.
+
+Voy a implementar esta soluycion para poder entender la logica de manera mas profunda.
